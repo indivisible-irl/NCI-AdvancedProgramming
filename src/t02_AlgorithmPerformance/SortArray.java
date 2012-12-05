@@ -89,7 +89,8 @@ public class SortArray {
 
     }
     
-    public static void lt()
+    @SuppressWarnings("unused")
+	public static void lt()
     {
     	boolean whocares;
     	for (int i=Integer.MIN_VALUE; i<Integer.MAX_VALUE; i++)
@@ -97,7 +98,8 @@ public class SortArray {
     		whocares = i < 10;
     	}
     }
-    public static void eq()
+    @SuppressWarnings("unused")
+	public static void eq()
     {
     	boolean whocares;
     	for (int i=Integer.MIN_VALUE; i<Integer.MAX_VALUE; i++)
